@@ -1,5 +1,18 @@
+body{ 
+    margin-bottom: 20px; 
+}
+nav{ 
+    margin-bottom: 50px; 
+}
 
+.card{ 
+    margin-top: 30px; 
+}
 
-.jumbotron{ 
-    background-image: url("baltimore.jpg")
+footer{ 
+    margin-bottom: 5px; 
+    margin-top: 10px; 
+    padding-bottom: 5px; 
+    padding-top: 10px; 
+    text-align: center; 
 }
