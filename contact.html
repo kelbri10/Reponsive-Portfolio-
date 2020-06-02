@@ -44,38 +44,39 @@
                 </div>
             </div>
         </div>
-
+        
         <!--contact me form-->
         <div class="container"> 
             <div class="row"> 
                 <div class="col-md-12"> 
                     <form>
-                        <div class="form-group">
-                          <label for="exampleFormControlInput1">Email address</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      <!--first and last name input-->
+                      <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="First name">
                         </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                      </div>
+                      <!--email address-->
                         <div class="form-group">
-                          <label for="exampleFormControlSelect1">Example select</label>
+                          <label for="inputEmailAddress"></label>
+                          <input type="email" class="form-control" id="inputEmailAddress" placeholder="name@example.com">
+                        </div>
+                      <!--how you hear about me-->
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">How did you hear about me?</label>
                           <select class="form-control" id="exampleFormControlSelect1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>Github</option>
+                            <option>LinkedIn</option>
+                            <option>Twitter</option>
+                            <option>Facebook</option>
                           </select>
                         </div>
+                      <!--Provide a summary of the project idea! The more details the better!-->
                         <div class="form-group">
-                          <label for="exampleFormControlSelect2">Example multiple select</label>
-                          <select multiple class="form-control" id="exampleFormControlSelect2">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleFormControlTextarea1">Example textarea</label>
+                          <label for="exampleFormControlTextarea1">Provide a summary of the project idea! THe more details the better!</label>
                           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
 
