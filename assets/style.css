@@ -1,13 +1,19 @@
 
+body{ 
+    font-family: 'Dosis', sans-serif;
+}
+
 .page-header{ 
     margin-bottom: 10px; 
-    text-decoration: underline; 
     width: 100%; 
 }
+
 .navbar{ 
     padding: 10px; 
     margin-bottom: 20px; 
 }
+
+
 .container{ 
     margin-bottom: 20px; 
 }
