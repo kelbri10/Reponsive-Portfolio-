@@ -18,8 +18,8 @@ body{
     margin-bottom: 20px; 
 }
 footer{ 
-    position: fixed; 
-    bottom: 0;  
+    position: sticky; 
+    bottom: -10px;  
     left: 40%; 
     margin-top: 30px; 
     padding: 10px; 
