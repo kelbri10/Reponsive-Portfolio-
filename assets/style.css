@@ -1,11 +1,25 @@
+body{ 
+    position: relative;  
+    min-height: 100vh; 
+}
+
+.page-header{ 
+    margin-bottom: 10px; 
+    text-decoration: underline; 
+    width: 100%; 
+}
 .navbar{ 
     padding: 10px; 
     margin-bottom: 20px; 
 }
-
+.container{ 
+    margin-bottom: 20px; 
+}
 footer{ 
-    position: fixed; 
-    bottom: 0; 
-    left: 40%;
+    position: absolute; 
+    bottom: 0;  
+    margin-top: 30px; 
     padding: 10px; 
+    text-align: center; 
+    color: white; 
 }
