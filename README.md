@@ -1,1 +1,3 @@
 # Reponsive-Portfolio-
+
+This project contains 3 html documents, a reset css document, and a style.css document along with additional assets. The content of the page was formatted using Bootstrap and the grid system. The user is first directed to the index.html page which shows an About Me page. When the user clicks on Portfolio, they are then directed to 4 cards showing different games they can play. The user can also click on the Contact tab, which displays a jumbotron and form pulled from Bootstrap. In the CSS, I attempted to utilize media queries to identify breakpoints in the content and ensure responsiveness according to the users device. On each html page I included the meta viewport tag which also assists with this. 
