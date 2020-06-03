@@ -32,7 +32,7 @@ footer{
     .about{ 
         margin: 20px; 
     }
-    .container{ 
-        width: 50%; 
+    .wrapper{ 
+        width: 600px; 
     }
 }
